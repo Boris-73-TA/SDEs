@@ -1,5 +1,6 @@
 # SDEs
-- Simulating SDEs using Euler's discretization. 
+- Simulating SDEs using Euler's discretization.
+- ![Uploading Screenshot 2024-05-15 at 08.48.24.png…]()
 - List of processes implemented:
   - 'OU', 'CIR', 'GBM', 'GBMSA', 'VG', 'VGSA', 'Merton',
     'ATSM', 'ATSM_SV', 'CEV', 'BrownianBridge', 'BrownianMeander',
