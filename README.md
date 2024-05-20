@@ -10,6 +10,7 @@
 - StochasticProcessSimulator.py script can be used to obtain paths from desired SDE.
 - Simulating_SDEs_Euler.ipynb shows an example of how this can be used to produce plots of all the types of SDEs. 
 - Future work:
+  - add optional plotting of envelopes and distributions
   - add Milstein and Runge-Kutta discretization schemes
   - add more SDEs such as Vasicek, SABR, Derman-Kani Local Volatility, Hull-White, Chan–Karolyi Longstaff–Sanders, and Ito diffusions
 - This is a very rough implementation, and there are lots of improvements to be made. Any suggestions are welcome. 
