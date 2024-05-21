@@ -13,5 +13,5 @@
 - Future work:
   - add optional plotting of envelopes and distributions
   - add Milstein and Runge-Kutta discretization schemes
-  - add more SDEs/processes such as Vasicek, SABR, Derman-Kani Local Volatility (DK LV), Hull-White (HW), Chan–Karolyi-Longstaff–Sanders (CKLS), Bessel, Squared-Bessel, Wiener sausages, Fractional BM, Hirsa-Madan Discrete Time Double Gamma Stochastic Volatility (DTDG), Dyson BM, Time-Homogeneous Garch, and Ito diffusions
+  - add more SDEs/processes such as Vasicek, SABR, Shifted SABR, Hull-White (HW), Chan–Karolyi-Longstaff–Sanders (CKLS), Bessel, Squared-Bessel, Wiener sausages, Fractional BM, Hirsa-Madan Discrete Time Double Gamma Stochastic Volatility (DTDG), Dyson BM, Time-Homogeneous Garch, and Ito diffusions
 - This is a very rough implementation, and there are lots of improvements to be made. Any suggestions are welcome. 
