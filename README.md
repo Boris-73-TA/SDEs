@@ -1,8 +1,9 @@
 # SDEs
-- Simulating SDEs using Euler's discretization.
+- Simulating SDEs using Euler discretization.
 
 <img width="538" alt="Screenshot 2024-05-15 at 08 49 20" src="https://github.com/Boris-73-TA/SDEs/assets/129144076/0916880c-03a7-4fca-9841-5ceec3836094">
 
+- Euler scheme does not require derivatives, but Milstein and Runge-Kutta discretization schemes do... 
 - List of processes implemented:
   - 'OU', 'CIR', 'GBM', 'GBMSA', 'VG', 'VGSA', 'Merton',
     'ATSM', 'ATSM_SV', 'CEV', 'BrownianBridge', 'BrownianMeander',
