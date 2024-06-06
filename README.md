@@ -1,10 +1,13 @@
 # SDEs
+- [Git Homepage](https://github.com/Boris-73-TA/SDEs/)
+- [Pip Repository](https://pypi.org/project/StochasticProcessSimulator/)
+  
 - Simulating SDEs using Euler discretization.
 
 <img width="538" alt="Screenshot 2024-05-15 at 08 49 20" src="https://github.com/Boris-73-TA/SDEs/assets/129144076/0916880c-03a7-4fca-9841-5ceec3836094">
 
 - Euler scheme does not require derivatives, but Milstein and Runge-Kutta discretization schemes do...
-  
+
 - List of processes implemented:
   - 'BM', 'GBM', 'OU', 'ExponentialOU', '(Heston) GBMSA', 'srGBM', 'SBM', 'BrownianBridge', 'BrownianMeander',
      'BrownianExcursion', 'DysonBM', 'StickyBM', 'ReflectingBM', 'CorrelatedBM', 
@@ -37,7 +40,45 @@
 - NB: In StochasticProcessSimulator(), 'kCorrelatedGBMs' and 'kCorrelatedBMs' are implemented without the option of producing plots...
 
 - 3dBMCube.ipynb and 3dBMSphere.ipynb are two examples demonstrating how StochasticProcessSimulator() can be integrated with more specific plotting requirements to produce plots of 3d BM paths constrained to a cube and sphere, respectively. 
-  
+
+## Installation
+
+StochasticProcessSimulator is available on [pypi](https://pypi.python.org/pypi) and can be
+installed as follows
+
+```
+pip install StochasticProcessSimulator
+```
+
+## Dependencies
+
+StochasticProcessSimulator relies on
+
+- ``numpy``  for random number generation
+- ``scipy`` and ``statsmodels`` for support for a number of one-dimensional distributions.
+- ``matplotlib`` for creating visualisations
+
+## Quick-Start
+
+StochasticProcessSimulator allows you to simulate and plot paths from different stochastic processes in simple way.
+
+For instance, the following code
+
+```python
+from StochasticProcessSimulator import StochasticProcessSimulator as SPS
+simulator = SPS(
+            process_type='GBM', do_plot=True)
+paths = simulator.simulate()
+
+```
+
+produces the following output:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/"   style="display:block;float:none;margin-left:auto;margin-right:auto;width:80%">
+</p>
+
+
 - Future work:
   - add handling of parameter inputs that break validity conditions... 
   - add Milstein and Runge-Kutta discretization schemes...
