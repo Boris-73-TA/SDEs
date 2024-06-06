@@ -75,7 +75,7 @@ paths = simulator.simulate()
 produces the following output:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/"   style="display:block;float:none;margin-left:auto;margin-right:auto;width:80%">
+<img src="https://raw.githubusercontent.com/Boris-73-TA/SDEs/GBM_example.png"   style="display:block;float:none;margin-left:auto;margin-right:auto;width:80%">
 </p>
 
 
