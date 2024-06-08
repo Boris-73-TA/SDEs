@@ -54,13 +54,13 @@ pip install StochasticProcessSimulator
 
 StochasticProcessSimulator relies on
 
-- ``numpy``  for random number generation
-- ``scipy`` and ``statsmodels`` for support for a number of one-dimensional distributions.
-- ``matplotlib`` for creating visualisations
+- ``numpy``  for random number generation and math functions, 
+- ``scipy`` and ``statsmodels`` for support for some specific distributions, 
+- ``matplotlib`` for creating visualisations. 
 
 ## Quick-Start
 
-StochasticProcessSimulator allows you to simulate and plot paths from different stochastic processes in simple way.
+StochasticProcessSimulator allows you to simulate and plot paths from different stochastic processes in a simple way.
 
 For instance, the following code
 
