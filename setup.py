@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='StochasticProcessSimulator',
-    version='0.1.2', 
+    version='0.1.3', 
     author='Boris Ter-Avanesov',
     author_email='bt2522@columbia.edu',
     description='A package for simulating and plotting stochastic processes using discretization of SDEs.',
